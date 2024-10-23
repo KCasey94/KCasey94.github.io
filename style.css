@@ -1,0 +1,52 @@
+body{
+    background-color: beige;
+    text-align: center;
+}
+h1{
+    color: blue;
+    font-family: Helvetica;
+    text-shadow: 5cm;
+}
+h3{
+    color: navy;
+    font-family: arial;
+
+}
+li{
+    color: orange;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+a{
+    color:green;
+    font-family:Georgia;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.bullet{
+    font-size: 16px;
+    list-style-type: square;
+}
+
+@media(min-width: 800px){
+    .container-info{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-basis: 25%;
+    }
+}
+
+.container-info div{
+    border: 3px solid black;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
